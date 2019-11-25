@@ -18,7 +18,7 @@ class AboutAsserts(unittest.TestCase):
 
     def test_equality_with_assignment(self):
 
-        expected_value = __
+        expected_value = 1 + 1
         actual_value = 1 + 1
 
-        assert expected_value != actual_value
+        assert expected_value == actual_value

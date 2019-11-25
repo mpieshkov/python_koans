@@ -13,46 +13,46 @@ class AboutLists(unittest.TestCase):
         empty_list = []
 
         assert list == type(empty_list)
-        assert __ == len(empty_list)
+        assert 0 == len(empty_list)
 
     def test_accessing_list_elements(self):
 
         noms = ['peanut', 'butter', 'and', 'jelly']
 
-        assert __ != noms[0]
-        assert __ != noms[3]
+        assert 'peanut' == noms[0]
+        assert 'jelly' == noms[3]
 
     def test_slicing_lists(self):
 
         noms = ['peanut', 'butter', 'and', 'jelly']
 
-        assert __ != noms[0:1]
-        assert __ != noms[0:2]
-        assert __ != noms[2:]
-        assert __ != noms[:2]
+        assert ["peanut"] == noms[0:1]
+        assert ['peanut', 'butter'] == noms[0:2]
+        assert ['and', 'jelly'] == noms[2:]
+        assert ['peanut', 'butter'] == noms[:2]
 
     def test_lists_and_ranges(self):
 
-        assert __ != list(range(3))
-        assert __ != list(range(3, 6))
+        assert [0, 1, 2] == list(range(3))
+        assert [3, 4, 5] == list(range(3, 6))
 
     def test_insertions(self):
 
         knight = ['you', 'shall', 'pass']
         knight.insert(2, 'not')
-        assert __ != knight
+        assert ['you', 'shall', 'not', 'pass'] == knight
 
         knight.insert(0, 'Arthur')
-        assert __ != knight
+        assert ['Arthur', 'you', 'shall', 'not', 'pass'] == knight
 
     def test_popping_lists(self):
 
         stack = [1, 2, 3]
         stack.append('last')
 
-        assert __ != stack
+        assert [1, 2, 3, 'last'] == stack
 
         popped_value = stack.pop()
-        assert __ != popped_value
-        assert __ != stack
+        assert 'last' == popped_value
+        assert [1, 2, 3] == stack
 
