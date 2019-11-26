@@ -16,7 +16,7 @@ class AboutWhileLoops(unittest.TestCase):
             index = index - 1
             numbers = numbers + str(index)
 
-        assert numbers == __
+        assert numbers == '210'
 
     def test_count_down_again(self):
 
@@ -26,7 +26,7 @@ class AboutWhileLoops(unittest.TestCase):
             numbers = numbers + str(index)
             index = index - 1
 
-        assert numbers == __
+        assert numbers == '321'
 
     def test_find_first_index_of_a_character(self):
 
@@ -35,7 +35,7 @@ class AboutWhileLoops(unittest.TestCase):
         while not phrase[index] == 'R':
             index = index + 1
 
-        assert index == __
+        assert index == 12
 
     def test_find_first_index_of_a_vowel(self):
 
@@ -45,11 +45,12 @@ class AboutWhileLoops(unittest.TestCase):
         # >>> 'b' in 'abc'
         # True
 
-        vowels = __
-
+        vowels = 0
         phrase = 'Pdrlso'
-
         index = 0
+        while not phrase[index] == 'o':
+            index = index + 1
+
         # Your code here
         # Tip reuse code from previous test method
 

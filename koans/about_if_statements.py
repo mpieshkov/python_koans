@@ -15,7 +15,7 @@ class AboutIfStatements(unittest.TestCase):
         if True:
             result = 'updated'
 
-        assert __ == result
+        assert 'updated' == result
 
     def test_if_statement_two(self):
 
@@ -24,7 +24,7 @@ class AboutIfStatements(unittest.TestCase):
         if False:
             result = 'updated'
 
-        assert __ == result
+        assert 'original' == result
 
     def test_if_else_one(self):
 
@@ -35,7 +35,7 @@ class AboutIfStatements(unittest.TestCase):
         else:
             result = 'updated by False branch'
 
-        assert __ == result
+        assert 'updated by True branch' == result
 
     def test_if_else_two(self):
 
@@ -46,7 +46,7 @@ class AboutIfStatements(unittest.TestCase):
         else:
             result = 'updated by False branch'
 
-        assert __ == result
+        assert 'updated by False branch' == result
 
     def test_if_then_elif_else(self):
 
@@ -59,4 +59,4 @@ class AboutIfStatements(unittest.TestCase):
         else:
             result = 'not vowel'
 
-        assert __ == result
+        assert 'not vowel' == result

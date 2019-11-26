@@ -14,7 +14,7 @@ class AboutAsserts(unittest.TestCase):
 
     def test_equality(self):
 
-        assert __ != 1 + 1
+        assert True == 1 + 1
 
     def test_equality_with_assignment(self):
 

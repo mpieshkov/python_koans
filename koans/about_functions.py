@@ -11,7 +11,7 @@ class AboutFunctions(unittest.TestCase):
     def test_function_creation(self):
 
         def say_hi():
-            return __
+            return 'hi'
 
         assert say_hi() == 'hi'
 
@@ -19,7 +19,7 @@ class AboutFunctions(unittest.TestCase):
 
         def concatenate(string1, string2):
             # Enter your code here
-            return None
+            return(string1 + string2)
 
         assert concatenate('abc', 'def') == 'abcdef'
 
@@ -37,7 +37,7 @@ class AboutFunctions(unittest.TestCase):
 
         def get_day_difference(day_one, day_two):
             # Enter your code here
-            return None
+            return(day_two - day_one)
 
         assert get_day_difference(34, 254) == 220
 
