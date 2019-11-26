@@ -1,14 +1,167 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f29dd10-9d97-4a46-8ce7-fb885b357d71" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="5f29dd10-9d97-4a46-8ce7-fb885b357d71" name="Default Changelist" comment="Merge https://github.com/gregmalcolm/python_koans into test&#10;&#10;# Conflicts:&#10;#&#9;.gitignore&#10;#&#9;MIT-LICENSE&#10;#&#9;README.rst">
+      <change afterPath="$PROJECT_DIR$/.hgignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contributor Notes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/_runner_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/contemplate_koans.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/example_file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/koans.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/koans/GREEDS_RULES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/koans/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/koans/a_normal_folder/a_module.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/koans/a_package_folder/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/koans/a_package_folder/a_module.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/koans/about_asserts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/koans/about_attribute_access.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/koans/about_class_attributes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/koans/about_classes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/koans/about_comprehension.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/koans/about_control_statements.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/koans/about_decorating_with_classes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/koans/about_decorating_with_functions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/koans/about_deleting_objects.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/koans/about_dice_project.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/koans/about_dictionaries.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/koans/about_exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/koans/about_extra_credit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/koans/about_generators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/koans/about_inheritance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/koans/about_iteration.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/koans/about_lambdas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/koans/about_list_assignments.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/koans/about_lists.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/koans/about_method_bindings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/koans/about_methods.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/koans/about_modules.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/koans/about_monkey_patching.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/koans/about_multiple_inheritance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/koans/about_new_style_classes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/koans/about_none.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/koans/about_packages.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/koans/about_proxy_object_project.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/koans/about_regex.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/koans/about_scope.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/koans/about_scoring_project.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/koans/about_sets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/koans/about_string_manipulation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/koans/about_strings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/koans/about_triangle_project.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/koans/about_triangle_project2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/koans/about_true_and_false.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/koans/about_tuples.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/koans/about_with_statements.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/koans/another_local_module.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/koans/jims.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/koans/joes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/koans/local_module.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/koans/local_module_with_all_defined.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/koans/triangle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/libs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/libs/colorama/LICENSE-colorama" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/libs/colorama/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/libs/colorama/ansi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/libs/colorama/ansitowin32.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/libs/colorama/initialise.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/libs/colorama/win32.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/libs/colorama/winterm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/libs/mock.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/run.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/runner/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/runner/helper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/runner/koan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/runner/mockable_test_result.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/runner/mountain.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/runner/path_to_enlightenment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/runner/runner_tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/runner/runner_tests/test_helper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/runner/runner_tests/test_mountain.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/runner/runner_tests/test_path_to_enlightenment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/runner/runner_tests/test_sensei.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/runner/sensei.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/runner/writeln_decorator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python2/scent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/_runner_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/contemplate_koans.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/example_file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/koans.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/koans/GREEDS_RULES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/koans/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/koans/a_package_folder/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/koans/a_package_folder/a_module.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/koans/about_asserts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/koans/about_attribute_access.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/koans/about_class_attributes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/koans/about_classes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/koans/about_comprehension.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/koans/about_control_statements.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/koans/about_decorating_with_classes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/koans/about_decorating_with_functions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/koans/about_deleting_objects.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/koans/about_dice_project.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/koans/about_dictionaries.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/koans/about_exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/koans/about_extra_credit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/koans/about_generators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/koans/about_inheritance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/koans/about_iteration.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/koans/about_lambdas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/koans/about_list_assignments.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/koans/about_lists.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/koans/about_method_bindings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/koans/about_methods.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/koans/about_modules.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/koans/about_monkey_patching.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/koans/about_multiple_inheritance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/koans/about_none.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/koans/about_packages.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/koans/about_proxy_object_project.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/koans/about_regex.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/koans/about_scope.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/koans/about_scoring_project.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/koans/about_sets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/koans/about_string_manipulation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/koans/about_strings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/koans/about_triangle_project.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/koans/about_triangle_project2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/koans/about_true_and_false.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/koans/about_tuples.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/koans/about_with_statements.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/koans/another_local_module.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/koans/jims.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/koans/joes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/koans/local_module.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/koans/local_module_with_all_defined.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/koans/triangle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/libs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/libs/colorama/LICENSE-colorama" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/libs/colorama/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/libs/colorama/ansi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/libs/colorama/ansitowin32.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/libs/colorama/initialise.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/libs/colorama/win32.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/libs/colorama/winterm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/libs/mock.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/run.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/runner/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/runner/helper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/runner/koan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/runner/mockable_test_result.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/runner/mountain.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/runner/path_to_enlightenment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/runner/runner_tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/runner/runner_tests/test_helper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/runner/runner_tests/test_mountain.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/runner/runner_tests/test_path_to_enlightenment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/runner/runner_tests/test_sensei.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/runner/sensei.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/runner/writeln_decorator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/scent.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/koans/about_asserts.py" beforeDir="false" afterPath="$PROJECT_DIR$/koans/about_asserts.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/koans/about_dictionaries.py" beforeDir="false" afterPath="$PROJECT_DIR$/koans/about_dictionaries.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/koans/about_lists.py" beforeDir="false" afterPath="$PROJECT_DIR$/koans/about_lists.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/koans/about_loops.py" beforeDir="false" afterPath="$PROJECT_DIR$/koans/about_loops.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/koans/about_strings.py" beforeDir="false" afterPath="$PROJECT_DIR$/koans/about_strings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +189,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in about_asserts.py">
+  <component name="RunManager" selected="Python.contemplate_koans (1)">
     <configuration name="_runner_tests" type="PythonConfigurationType" factoryName="Python">
       <module name="python-koans-master" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -50,6 +203,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_runner_tests.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="contemplate_koans (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python-koans-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python3/contemplate_koans.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -107,6 +281,11 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.contemplate_koans (1)" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -119,6 +298,14 @@
       <option name="presentableId" value="Default" />
       <updated>1574418995005</updated>
     </task>
+    <task id="LOCAL-00001" summary="Passed exercises">
+      <created>1574706212535</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574706212535</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -131,5 +318,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Passed exercises" />
+    <MESSAGE value="Merge https://github.com/gregmalcolm/python_koans into test&#10;&#10;# Conflicts:&#10;#&#9;.gitignore&#10;#&#9;MIT-LICENSE&#10;#&#9;README.rst" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge https://github.com/gregmalcolm/python_koans into test&#10;&#10;# Conflicts:&#10;#&#9;.gitignore&#10;#&#9;MIT-LICENSE&#10;#&#9;README.rst" />
   </component>
 </project>
