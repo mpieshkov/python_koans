@@ -45,7 +45,8 @@ class AboutFunctions(unittest.TestCase):
 
         def get_age_in_2050(age_now):
             # Enter your code here
-            return None
+            years_difference = 70 - age_now
+            return (age_now + years_difference)
 
         assert get_age_in_2050(34) == 70
 
@@ -65,7 +66,8 @@ class AboutFunctions(unittest.TestCase):
 
         def convert_to_celsius(fahrenheit):
             # Enter your code here
-            return None
+            celsius = ((fahrenheit - 32) * 5) / 9
+            return celsius
 
         assert convert_to_celsius(80) == 26
 
@@ -75,7 +77,7 @@ class AboutFunctions(unittest.TestCase):
 
         def convert_to_miles(kilometers):
             # Enter your code here
-            return False
+            return (kilometers * 1.6)
 
         miles = convert_to_miles(34)
         self.assertAlmostEqual(miles, 54.4, 1)
