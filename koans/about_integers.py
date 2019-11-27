@@ -35,7 +35,7 @@ class AboutIntegers(unittest.TestCase):
     def test_integers_comparisons(self):
 
         assert (1 < 3)  == True         # less than
-        assert (3 > 3)  == False         # more than
-        assert (3 == 2) == False         # equality
-        assert (9 <= 3) == False         # less or equal than
+        assert (3 > 3)  == False        # more than
+        assert (3 == 2) == False        # equality
+        assert (9 <= 3) == False        # less or equal than
         assert (6 >= 3) == True         # more or equal than
