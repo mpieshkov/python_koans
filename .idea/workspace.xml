@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f29dd10-9d97-4a46-8ce7-fb885b357d71" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/koans/about_asserts.py" beforeDir="false" afterPath="$PROJECT_DIR$/koans/about_asserts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koans/about_tuples.py" beforeDir="false" afterPath="$PROJECT_DIR$/koans/about_tuples.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -179,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574854714576</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Merge https://github.com/gregmalcolm/python_koans into test&#10;&#10;# Conflicts:&#10;#&#9;.gitignore&#10;#&#9;MIT-LICENSE&#10;#&#9;README.rst">
+      <created>1574854936940</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1574854936940</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
